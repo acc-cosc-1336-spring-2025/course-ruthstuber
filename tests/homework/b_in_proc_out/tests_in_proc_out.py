@@ -4,7 +4,7 @@ import unittest
 The file at /src/homework/b_in_proc_out/output has 
 the function get_number.
 '''
-from src.homework.b_in_proc_out.output import get_number
+from src.homework.b_in_proc_out.output import get_number, multiply_numbers
 
 class Test_Config(unittest.TestCase):
 
@@ -21,4 +21,3 @@ class Test_Config(unittest.TestCase):
         self.assertEqual(multiply_numbers(2, 2), 4)
         self.assertEqual(multiply_numbers(10, 10), 100)
             
-
